@@ -1,4 +1,9 @@
-﻿# Environment
+﻿# Last updated 2022-07-05
+
+# Generally
+- Moved the Documentation folder to separate repo called Franky-Webpage so I don't need to update the main branch every time I need to change documentation for the webpage
+
+# Environment
 - I have migrated it to work with PowerShell Universal 3.0.6
 - Updated PowerShell to 7.2.5
 - Updated ImportExcel to 7.6.0
@@ -9,10 +14,7 @@
 - Formated the .ps1 files after PSU 3.x standard
 - Dashboard.ps1 has changed it so it don't re-write the hole $pages and instead following standard
 
-# Setup and installation
-- 
-
-# New
+# New functions
 
 # Updates
 ## All over
@@ -25,6 +27,7 @@
 
 ### Computer
 - Replaced some text with icons instead to make the GUI to look better
+- Now you can write the group name, computer name etc. and you will get autosuggestion on computers or groups that exists in your AD in a dropdown list.
 
 ### Group
 - Replaced some text with icons instead to make the GUI to look better
