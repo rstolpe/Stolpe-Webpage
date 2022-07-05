@@ -1,2 +1,2 @@
 # Franky-Webpage
-Webpage information regarding Franky that are published on stolpe.io
+This pages are syncing with stolpe.io regarding all the information for Franky
