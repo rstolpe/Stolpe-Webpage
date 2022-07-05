@@ -11,7 +11,7 @@
 
 # Configuration files
 - Added missing configuration .ps1 files under .universal folder
-- Formated the .ps1 files after PSU 3.x standard
+- Formatted the .ps1 files after PSU 3.x standard
 - Dashboard.ps1 has changed it so it don't re-write the hole $pages and instead following standard
 
 # New functions
