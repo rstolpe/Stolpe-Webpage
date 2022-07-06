@@ -27,11 +27,25 @@
 - Changed date to YYYY-MM-DD HH:MM
 - For data tables I have set pagination location to the top
 
+## Install.ps1
+- Checks if the right PowerShell version are installed, if it's not it will download it and prompt to install it
+- Added error handling
+- Verify so the Franky admin user is existing in the domain
+- You can now choose to update or install with the script.
+- No need to enter DNSroot manually anymore, collects it automatically
+- Checks if ActiveDirectory module are installed, if it's not the script will exit as it's needed for the script.
+- Checks so the Franky admin user are existing in the AD
+- Checks so the OU Path for groups existing
+- Downloading latest release of Franky and unzipping it
+- Downloading latest supported version of PowerShell Universal
+- Integrate InstallEventLog.ps1 to install.ps1 script
+
 ## Dashboard/pages
 ## #User
 - Now you can write the group name, computer name etc. and you will get autosuggestion on computers or groups that exists in your AD in a dropdown list.
 - Replaced some text with icons instead to make the GUI to look better
 - Added delete button in front of the groups that the user is a member of in the table
+- When adding user to a new group it will verify if the user already are a member or not.
 
 ### Computer
 - Replaced some text with icons instead to make the GUI to look better
@@ -39,6 +53,7 @@
 - Did rebuild the last logged in user function to speed things up.
 - Rebuild so uptime is not showing days if the counter are 0
 - Added delete button in front of the groups that the computer is a member of in the table.
+- When adding computer to a new group it will verify if the computer already are a member or not.
 
 ### Group
 - Now you can write the group name, computer name etc. and you will get autosuggestion on computers or groups that exists in your AD in a dropdown list.
