@@ -1,17 +1,17 @@
-﻿# Last updated 2022-07-05
+﻿# Last updated 2022-07-06
 
 # Generally
 - Moved the Documentation folder to separate repo called Franky-Webpage so I don't need to update the main branch every time I need to change documentation for the webpage
 
 # Environment
-- I have migrated it to work with PowerShell Universal 3.0.6
+- I have migrated it to work with PowerShell Universal 3.1.0
 - Updated PowerShell to 7.2.5
 - Updated ImportExcel to 7.6.0
 - Updated the code to work with PowerShell 7 as Franky now goes native PowerShell 7.
 
 # Configuration files
 - Added missing configuration .ps1 files under .universal folder
-- Formated the .ps1 files after PSU 3.x standard
+- Formatted the .ps1 files after PSU 3.x standard
 - Dashboard.ps1 has changed it so it don't re-write the hole $pages and instead following standard
 - Moved ActivateLoadBalancing bool from dashboard to variables.ps1
 
@@ -29,16 +29,21 @@
 
 ## Dashboard/pages
 ## #User
+- Now you can write the group name, computer name etc. and you will get autosuggestion on computers or groups that exists in your AD in a dropdown list.
 - Replaced some text with icons instead to make the GUI to look better
+- Added delete button in front of the groups that the user is a member of in the table
 
 ### Computer
 - Replaced some text with icons instead to make the GUI to look better
 - Now you can write the group name, computer name etc. and you will get autosuggestion on computers or groups that exists in your AD in a dropdown list.
 - Did rebuild the last logged in user function to speed things up.
 - Rebuild so uptime is not showing days if the counter are 0
+- Added delete button in front of the groups that the computer is a member of in the table.
 
 ### Group
+- Now you can write the group name, computer name etc. and you will get autosuggestion on computers or groups that exists in your AD in a dropdown list.
 - Replaced some text with icons instead to make the GUI to look better
+- Added delete button in front och the group members in the table.
 
 ## Functions
 ### Show process on COMPUTERNAME
