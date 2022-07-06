@@ -33,15 +33,19 @@
 - Verify so the Franky admin user is existing in the domain
 - You can now choose to update or install with the script.
 - No need to enter DNSroot manually anymore, collects it automatically
+- Showing the SID for Franky.Access group
+- Showing the correct LDAP:// path to add to roles.ps1 and Authentication.ps1
 - Checks if ActiveDirectory module are installed, if it's not the script will exit as it's needed for the script.
 - Checks so the Franky admin user are existing in the AD
 - Checks so the OU Path for groups existing
 - Downloading latest release of Franky and unzipping it
 - Downloading latest supported version of PowerShell Universal
 - Integrate InstallEventLog.ps1 to install.ps1 script
+- In the end showing a Guide with what value that you need to change in other files.
+- For install option it now copy the downloaded latest version of Franky to PSU folder
 
 ## Dashboard/pages
-## #User
+## User
 - Now you can write the group name, computer name etc. and you will get autosuggestion on computers or groups that exists in your AD in a dropdown list.
 - Replaced some text with icons instead to make the GUI to look better
 - Added delete button in front of the groups that the user is a member of in the table
