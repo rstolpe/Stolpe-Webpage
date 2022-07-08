@@ -1,12 +1,12 @@
 # Host
-## OS
+### OS
 * Windows Server 2019, 2022 and Windows 10, 11
 
-## Softwares
+### Softwares
 * PowerShell Universal at least 3.1.0
 * PowerShell 7.2.5
 
-## Powershell modules
+### Powershell modules
 * ActiveDirectory module
 * ImportExcel module 7.6.0
 
