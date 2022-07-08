@@ -1,30 +1,29 @@
-﻿# Last updated 2022-07-06
+﻿# Beta 3 Nightly (Last updated 2022-07-08)
 
-# Beta 3 Nightly
-
-# Generally
+## Generally
 - Moved the Documentation folder to separate repo called Franky-Webpage so I don't need to update the main branch every time I need to change documentation for the webpage
 - Renamed Installation Scripts folder to Installation_Scripts
 - Renamed Install.ps1 to Host_Install_Script.ps1 as we are going to create more scripts
 
-# Environment
+## Environment
 - I have migrated it to work with PowerShell Universal 3.1.0
 - Updated PowerShell to 7.2.5
 - Updated ImportExcel to 7.6.0
 - Updated the code to work with PowerShell 7 as Franky now goes native PowerShell 7.
 
-# Configuration files
+## Configuration files
 - Added missing configuration .ps1 files under .universal folder
 - Formatted the .ps1 files after PSU 3.x standard
 - Dashboard.ps1 has changed it so it don't re-write the hole $pages and instead following standard
 - Moved ActivateLoadBalancing bool from dashboard to variables.ps1
 
-# Bug fixes
+## Bug fixes
 - Fixed the error messages that did pop-up if you tried to download the log file when the log was empty
 
-# New functions
+## New functions
+Nothing new yet!
 
-# Updates
+## Updates
 ## All over
 - Updated the GUI with icons on some places to make the GUI look better to attract more people to use it.
 - Cleaned up the code
