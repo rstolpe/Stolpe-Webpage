@@ -34,6 +34,6 @@ It's also working if you have a VIP address and then attach the hosts to the VIP
  # Client Setup
  To make sure that we can manage computers from the "Computer" section from Franky we need to either make sure that we have activated WinRM on every client or we can set it up with a GPO, below we will walk you trough it.
 
- ## GPO
+ ### GPO
 
- ## On every singel client
+ ### On every singel client
