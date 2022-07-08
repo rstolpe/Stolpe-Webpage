@@ -11,4 +11,5 @@
 * ImportExcel module 7.6.0
 
 # Client
-Franky don't have any limitation or system requirements for the clients.
+- WinRM Service need to be started and set it to start automatic
+- You need to allow WinRM in the Windows firewall

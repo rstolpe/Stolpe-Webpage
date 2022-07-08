@@ -1,5 +1,7 @@
 ﻿# Last updated 2022-07-06
 
+# Beta 3 Nightly
+
 # Generally
 - Moved the Documentation folder to separate repo called Franky-Webpage so I don't need to update the main branch every time I need to change documentation for the webpage
 
@@ -30,7 +32,6 @@
 ## Install.ps1
 - Checks if the right PowerShell version are installed, if it's not it will download it and prompt to install it
 - Added error handling
-- Verify so the Franky admin user is existing in the domain
 - You can now choose to update or install with the script.
 - No need to enter DNSroot manually anymore, collects it automatically
 - Showing the SID for Franky.Access group
