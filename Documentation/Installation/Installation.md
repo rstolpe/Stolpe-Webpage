@@ -15,7 +15,6 @@ You can find the files below in this folder: C:\ProgramData\UniversalAutomation\
 
 ## Logging
 I have included logging that are stored in Eventlog on the host/s.
-As default the LogName is set to Franky but if you want to change it you can do so by configure the Host_Install_Script.ps1 file. In the top of the file you have a variable named $EventLogName just change that.
   
 When that's done you just need to change [bool]$ActiveEventLog variable from $false to $true in the variables.ps1 file.  
 You can find the variables.ps1 file at C:\ProgramData\UniversalAutomation\Repository\.universal
