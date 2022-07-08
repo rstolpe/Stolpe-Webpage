@@ -4,6 +4,8 @@
 
 # Generally
 - Moved the Documentation folder to separate repo called Franky-Webpage so I don't need to update the main branch every time I need to change documentation for the webpage
+- Renamed Installation Scripts folder to Installation_Scripts
+- Renamed Install.ps1 to Host_Install_Script.ps1 as we are going to create more scripts
 
 # Environment
 - I have migrated it to work with PowerShell Universal 3.1.0
@@ -32,6 +34,7 @@
 ## Install.ps1
 - Checks if the right PowerShell version are installed, if it's not it will download it and prompt to install it
 - Added error handling
+- Verify so the Franky admin user is existing in the domain
 - You can now choose to update or install with the script.
 - No need to enter DNSroot manually anymore, collects it automatically
 - Showing the SID for Franky.Access group
@@ -49,7 +52,7 @@
 ## User
 - Now you can write the group name, computer name etc. and you will get autosuggestion on computers or groups that exists in your AD in a dropdown list.
 - Replaced some text with icons instead to make the GUI to look better
-- Added delete button in front of the groups that the user is a member of in the table
+- Added delete button infront of the groups that the user is a member of in the table
 - When adding user to a new group it will verify if the user already are a member or not.
 
 ### Computer
@@ -57,13 +60,13 @@
 - Now you can write the group name, computer name etc. and you will get autosuggestion on computers or groups that exists in your AD in a dropdown list.
 - Did rebuild the last logged in user function to speed things up.
 - Rebuild so uptime is not showing days if the counter are 0
-- Added delete button in front of the groups that the computer is a member of in the table.
+- Added delete button infront of the groups that the computer is a member of in the table.
 - When adding computer to a new group it will verify if the computer already are a member or not.
 
 ### Group
 - Now you can write the group name, computer name etc. and you will get autosuggestion on computers or groups that exists in your AD in a dropdown list.
 - Replaced some text with icons instead to make the GUI to look better
-- Added delete button in front och the group members in the table.
+- Added delete button infront och the group members in the table.
 
 ## Functions
 ### Show process on COMPUTERNAME
