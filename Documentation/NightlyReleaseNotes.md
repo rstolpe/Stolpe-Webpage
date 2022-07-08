@@ -52,7 +52,7 @@
 ## User
 - Now you can write the group name, computer name etc. and you will get autosuggestion on computers or groups that exists in your AD in a dropdown list.
 - Replaced some text with icons instead to make the GUI to look better
-- Added delete button infront of the groups that the user is a member of in the table
+- Added delete button in front of the groups that the user is a member of in the table
 - When adding user to a new group it will verify if the user already are a member or not.
 
 ### Computer
@@ -60,13 +60,13 @@
 - Now you can write the group name, computer name etc. and you will get autosuggestion on computers or groups that exists in your AD in a dropdown list.
 - Did rebuild the last logged in user function to speed things up.
 - Rebuild so uptime is not showing days if the counter are 0
-- Added delete button infront of the groups that the computer is a member of in the table.
+- Added delete button in front of the groups that the computer is a member of in the table.
 - When adding computer to a new group it will verify if the computer already are a member or not.
 
 ### Group
 - Now you can write the group name, computer name etc. and you will get autosuggestion on computers or groups that exists in your AD in a dropdown list.
 - Replaced some text with icons instead to make the GUI to look better
-- Added delete button infront och the group members in the table.
+- Added delete button in front och the group members in the table.
 
 ## Functions
 ### Show process on COMPUTERNAME
