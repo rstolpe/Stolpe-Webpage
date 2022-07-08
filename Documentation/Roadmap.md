@@ -11,7 +11,7 @@
 | 🚀 | [Integrate VMWare Horizon]() | | |
 | 🚀 | [Integrate VMWare DEM]() |`in progress`| |
 | 🚀 | [Integrate VMWare Workspace]() | | |
-| 🚀 | [Integrate VMWare vSphere]() |`in progress`| |  
+| 🚀 | [Integrate VMWare vSphere]() | | |  
   
 Note, This features can run on hosts that are Linux, macOS, Windows and docker. The only thing is that AzureAD module are not working with ARM yet.  
   
