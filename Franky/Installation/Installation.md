@@ -1,3 +1,5 @@
+ # We are currently updating this site, stay tuned.
+ 
  # Host Setup
  It's really easy to install Franky as we have provided a installation script for it. Just download the script and run it on the host as admin.  
  It's some settings that you still need to do manually, but we have listed them below and will walk you trough them.  
