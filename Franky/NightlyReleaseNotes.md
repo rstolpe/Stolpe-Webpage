@@ -1,4 +1,4 @@
-﻿# Beta 3 Nightly (Last updated 2022-07-08)
+﻿# Beta 3 Nightly (Last updated 2022-07-12)
 
 ## Generally
 - Moved the Documentation folder to separate repo called Franky-Webpage so I don't need to update the main branch every time I need to change documentation for the webpage
@@ -16,6 +16,7 @@
 - Formatted the .ps1 files after PSU 3.x standard
 - Dashboard.ps1 has changed it so it don't re-write the hole $pages and instead following standard
 - Moved ActivateLoadBalancing bool from dashboard to variables.ps1
+- Environments I have removed ActiveDirectory as it don't need to be auto loaded as it will load when used.
 
 ## Bug fixes
 - Fixed the error messages that did pop-up if you tried to download the log file when the log was empty
@@ -46,6 +47,9 @@ Nothing new yet!
 - Integrate InstallEventLog.ps1 to install.ps1 script
 - In the end showing a Guide with what value that you need to change in other files.
 - For install option it now copy the downloaded latest version of Franky to PSU folder
+- Checks so it's running as administrator
+- Updating PS modules if needed
+- Uninstalling older version of the PS module after it has updated the PS module
 
 ## Dashboard/pages
 ## User
