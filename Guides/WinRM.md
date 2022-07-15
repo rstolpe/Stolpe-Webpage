@@ -43,7 +43,7 @@ Make sure that you are still editing our GPO "Enable WinRM"
 4. Mark it as Enabled and in every filed you should write *
 5. Click Apply and then OK
 
-(Insert picture)
+<img width="687" alt="4" src="https://user-images.githubusercontent.com/76907327/179217588-f4e77591-1588-471c-82d0-0cae6d5a0bf9.png">
 
 1. Now we are going to add some firewall rules
 
