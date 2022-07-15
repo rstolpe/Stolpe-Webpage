@@ -36,3 +36,8 @@ Make sure that you are still editing our GPO "Enable WinRM"
 
 ### Now it's time to setup the firewall rules
 Make sure that you are still editing our GPO "Enable WinRM"  
+
+### Almost done
+Now we have done almost everything we just need to make sure that the computers get the new GPO, we can do that in two ways.
+1. Restart the computer
+2. Open PowerShell or CMD as Administrator and write gpupdate /force and then press enter
