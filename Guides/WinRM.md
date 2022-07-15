@@ -37,6 +37,15 @@ Make sure that you are still editing our GPO "Enable WinRM"
 
 ### Now it's time to setup the firewall rules
 Make sure that you are still editing our GPO "Enable WinRM"  
+1. Now we need to enable Windows Firewall: Allow inbound remote administration exception
+2. Navigate to Computer Configuration > Policies > Administrative Templates: Policy definitions > Network > Network Connections > Windows Defender Firewall > Domain Profile
+3. Right click on Windows Firewall: Allow inbound remote administration exception and click Edit
+4. Mark it as Enabled and in every filed you should write *
+5. Click Apply and then OK
+
+(Insert picture)
+
+1. Now we are going to add some firewall rules
 
 ### Almost done
 Now we have done almost everything we just need to make sure that the computers get the new GPO, we can do that in two ways.
