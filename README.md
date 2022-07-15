@@ -1,2 +1,2 @@
 # Stolpe-Webpage
-This pages are syncing with stolpe.io
+This repo are syncing with stolpe.io
