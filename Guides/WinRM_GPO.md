@@ -1,7 +1,5 @@
 ﻿If you want to control a computer with PowerShell for example trough the network it's important that you have enabled WinRM services and also allowed WinRM in the Windows Firewall.  
 So I'll go trough how to do that now.  
-  
-## Enabling WinRM with GPO
 You can enable WinRM with GPO:s and to make that GPO to take effect you need to have the GPO in the same OU or above where your computer objects are stored.  
 (Insert picture)
 
