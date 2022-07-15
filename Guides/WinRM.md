@@ -2,7 +2,8 @@
 So I'll go trough how to do that now.  
   
 ## Enabling WinRM with GPO
-You can enable WinRM with GPO:s and to make that GPO to take effect you need to have it in the same OU or above where your computer objects are stored.
+You can enable WinRM with GPO:s and to make that GPO to take effect you need to have the GPO in the same OU or above where your computer objects are stored.  
+(Insert picture)
 
 ### First we need to open Group Policy Management and create the GPO
 1. From the start menu, open Control Panel.
