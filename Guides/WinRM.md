@@ -50,9 +50,13 @@ Make sure that you are still editing our GPO "Enable WinRM"
 3. Right click in the with window to the right and click on New rule
 4. Select Predefined
 5. In the dropdown list select Windows Remote Management
-(Picture)
+
+<img width="714" alt="5" src="https://user-images.githubusercontent.com/76907327/179218551-bf84368b-1f17-4fb6-ba9c-bfae75716a23.png">
+
 6. Make sure that both Windows Remote Management are checked, for the most secure option you should uncheck the one that says public. Click Next
-(picture)
+
+<img width="714" alt="6" src="https://user-images.githubusercontent.com/76907327/179218583-c12bafe0-16c0-4603-9f5d-05819e872555.png">
+
 7. Make sure it's set to "Allow the connection" and then click Finish
 
 ### Almost done
