@@ -12,7 +12,7 @@ You can enable WinRM with GPO:s and to make that GPO to take effect you need to 
 5. Right-click and select Create a GPO in this domain, and Link it here...
 6. Name it for example "Enable WinRM"
 
-(input picture here later)
+<img width="514" alt="1" src="https://user-images.githubusercontent.com/76907327/179216173-ca64f053-3565-4662-9561-84b3f6554a98.png">
 
 ### Now we need to allow WinRM
 1. Right click on "Enable WinRM" and select Edit
@@ -21,7 +21,7 @@ You can enable WinRM with GPO:s and to make that GPO to take effect you need to 
 4. Now mark it as Enabled and in every filed you should type *
 5. Click Apply and then OK
 
-(input picture here later)
+<img width="685" alt="2" src="https://user-images.githubusercontent.com/76907327/179216210-abbb1105-bf47-43d9-b7b2-44c2680fb621.png">
 
 ### Now we need to enable the WinRM service
 Make sure that you are still editing our GPO "Enable WinRM"  
@@ -32,7 +32,7 @@ Make sure that you are still editing our GPO "Enable WinRM"
 5. Change Service action to Start service
 6. Click Apply then OK
 
-(Insert picture)
+<img width="401" alt="3" src="https://user-images.githubusercontent.com/76907327/179216245-1969cb3e-0472-4efc-a57f-83c7cbcde38c.png">
 
 ### Now it's time to setup the firewall rules
 Make sure that you are still editing our GPO "Enable WinRM"  
