@@ -46,6 +46,14 @@ Make sure that you are still editing our GPO "Enable WinRM"
 <img width="687" alt="4" src="https://user-images.githubusercontent.com/76907327/179217588-f4e77591-1588-471c-82d0-0cae6d5a0bf9.png">
 
 1. Now we are going to add some firewall rules
+2. Navigate to Computer Configuration > Policies > Windows Settings > Security Settings > Windows Defender Firewall with Advanced Security > Windows Firewall with Advanced Security > Inbound Rules
+3. Right click in the with window to the right and click on New rule
+4. Select Predefined
+5. In the dropdown list select Windows Remote Management
+(Picture)
+6. Make sure that both Windows Remote Management are checked, for the most secure option you should uncheck the one that says public. Click Next
+(picture)
+7. Make sure it's set to "Allow the connection" and then click Finish
 
 ### Almost done
 Now we have done almost everything we just need to make sure that the computers get the new GPO, we can do that in two ways.
